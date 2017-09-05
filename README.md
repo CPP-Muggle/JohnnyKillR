@@ -1,2 +1,3 @@
 # JohnnyKillR
-some analytical work done during CDB
+some analytical work
+R framework in analyzing the data
