@@ -1,0 +1,282 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+%\namesection{Johnny}{Ni Chongbo}{ % Your name
+%\urlstyle{same}\url{https://www.linkedin.com/in/johnnyncb/} \\ % Your website, LinkedIn profile or other web address
+%\href{mailto:johnnyncb@gmail.com}{johnnyncb@gmail.com} | +852-96651366 | HK(Permanent) % Your contact information
+%}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+\section{Personal Particulars}
+\subsection{Johnny Ni Chongbo}
+\href{mailto:johnnyncb@gmail.com}{johnnyncb@gmail.com}
+\subsection{96651366}
+\subsection{Hong Kong (Perm)}
+
+\section{Education} 
+
+\subsection{City University}
+\subsection{of Hong KOng}
+\descript{BBA in Finance\\Quantitative Finance}
+\location{2014-2017 | Kowloon, HK }
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Shanghai Jiao Tong U}
+\descript{B.Sc Financial Engineering}
+\location{2016 - 2016 | SH, China}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+Github:// \href{https://github.com/CPP-Muggle}{\bf Johnny Code} \\
+LinkedIn:// \href{https://www.linkedin.com/in/johnnyncb/}{\bf Johnny Ni} \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Coursework}
+
+\subsection{City U}
+
+ODEs PDEs Algebra Calculus \\
+Econometrics,Financial Modelling \\
+Options Pricing, Risk Management \\
+Financial/Managerial Accounting \\
+Corporate Accounting/Auditing\\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{SJTU}
+
+Financial Engineering \\
+Financial Mathematics \\
+Financial Econometrics \\
+Investment Science \\
+Game Theory,Stochastic \\
+Time Series,SDEs \\
+
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Programming}
+
+\location{Over 5000 lines:}
+VBA \textbullet{} R \\ 
+\location{Over 1000 lines:}
+Python \textbullet{} EViews \textbullet{} Stata \\
+\location{Familiar:}
+C++ \textbullet{} Java \textbullet{} SQL
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Working Experience}
+
+\runsubsection{China Development Bank Hong Kong Branch}
+\descript{| Management Trainee; 13 out of around 400 chosen}
+
+\location{ Aug.28 2017 – Present | One IFC, HK}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Under Project Appraisal Department
+\item Comprehensively Studied the clients' audited financial statements
+\item Flew to the clients' main functioning plants to conduct auditing jobs
+\item Industry Research : In-Depth Analysis of the corresponding industries to make suggestions on loans
+\item Attended Meetings in headquarter located in Beijing
+
+\sectionspace % Some whitespace after the section
+
+\item Under Risk Management Department
+\item Conducted credit risk analytics using VBA (Quantitative)
+\item Worked in a team to comprehensively understand the clients' prospect (Qualitative)
+\item Took accountabilty for credit ratings (Clients include: Alibaba, JD, Cinda.....)
+\item Reported Risk Analytics to the head of the Bank
+
+
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Amundi Hong Kong Limited}
+\descript{| \\Quantitative Risk Managemnt Trainee |AUM:1.4 Trillion Euros Globally}
+
+\location{Jun 2017 – Aug 2017 | WanChai, HK}
+\begin{tightitemize}
+\item Developed VBA tools for automation and visualization, 60 percent time shortened
+\item Performed active risk management following Modified Dietz Model w.r.t time discrepancies
+\item Architected quantitative dashboard for visual and automated presentations
+\item Liaised with the Paris Headquarter risk team in implementing new models
+\item Conducted Analytical projects with respect to portfolio managers’ performance and
+made corresponding queries on specific areas, like risk-reward, model risk, etc.
+
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Ping An Securities Company}
+\descript{| Quant Intern }
+
+\location{June 2016 – Aug 2016 | Shenzhen, CN }
+\begin{tightitemize}
+\item Engineered Simple Algorithms to assess clients’ risk aversion
+\item Used SQL to extract tremendous data from databases and cleaned the data
+\item Assisted Tax Reconstruction in Oracle Database (Nation-Wide Taxation Reform)
+\item Assisted fund managers with ad-hoc research projects
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Research
+%------------------------------------------------
+
+\section{Research Experience}
+
+\runsubsection{Shanghai Jiao Tong University}
+\descript{| Financial Engineering Research}
+
+\location{May 2016 – July 2016 | Shanghai, CN}
+Under supervision of \textbf{\href{http://www.acem.sjtu.edu.cn/en/faculty/lanhai.html}{Professor Hai Lan}} (B.S,M.S (Tsinghua),Ph.D (Northwestern)).In this research, I mimicked Black-Jensen-Scholes' Method to test the availability of Capital-Asset-Pricing-Model in Chinese Stock Market. I wrote over 1,500 lines of R codes to perform rolling regression. It was concluded that the CAPM did not appeal to the market within the selected time range. Prof Lan highly endorsed my findings. 
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{City University of Hong Kong}
+\descript{| Investment Science Research}
+
+\location{Dec 2016 – May 2017 | Kowloon, HK}
+My independent extensive and exploratory study on \textbf{Capital Asset Pricing Model}, further to the research conducted in SJTU, I followed Black-Litterman approach to introduce a constraint factor so as to optimise the expected return. Under supervision of  \textbf{\href{https://www.cb.cityu.edu.hk/staff/yongjkim/}{Prof Kim Yongjin}} (B.S,M.S (KAIST), Ph.D (CMU)), he highly appraised my endevour and findings. 
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Awards
+%------------------------------------------------
+
+%\section{Awards} 
+
+%\begin{tabular}{rll}
+%2014	 & top 52/2500 & KPCB Engineering Fellow\\
+%2014	 & 2\textsuperscript{nd} most points & Google Code Jam, Qualification Round\\
+%2014	 & 1\textsuperscript{st}/50 & Microsoft Coding Competition, Cornell\\
+%2013	 & National & Jump Trading Challenge Finalist\\
+%2013 & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament \\
+%2012 & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+%2011 & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+%2010 & National & Comp. Soc. of India's National Programming Contest\\
+%\end{tabular}
+
+%\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Societies
+%------------------------------------------------
+
+%\section{Societies} 
+
+%\begin{tabular}{rll}
+%2014 & top 12\%ile & Tau Beta Pi Engineering Honor Society\\
+%2014 & National & The Global Leadership and Education Forum (tGELF)\\
+%2012 & National & Golden Key International Honor Society\\
+%2012 & National & National Society of Collegiate Scholars\\
+%\end{tabular}
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
